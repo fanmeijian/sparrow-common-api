@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>cn.sparrowmini</groupId>
 	<artifactId>sparrow-common-api</artifactId>
-	<version>0.0.1</version>
+	<version>0.1.0</version>
 	<packaging>jar</packaging>
 	<properties>
 		<hibernate.version>5.6.5.Final</hibernate.version>
@@ -97,6 +97,11 @@
 			<artifactId>jpa-unit5</artifactId>
 			<version>0.5.0</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>cn.sparrowmini</groupId>
+			<artifactId>sparrow-common</artifactId>
+			<version>0.0.1</version>
 		</dependency>
 	</dependencies>
 	<build>
