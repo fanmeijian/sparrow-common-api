@@ -4,6 +4,14 @@
 	<artifactId>sparrow-common-api</artifactId>
 	<version>0.1.0</version>
 	<packaging>jar</packaging>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.7.14</version>
+		<relativePath />
+	</parent>
+
 	<properties>
 		<hibernate.version>5.6.5.Final</hibernate.version>
 		<junit-platform.version>5.3.1</junit-platform.version>
@@ -11,15 +19,12 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-jpa</artifactId>
-			<version>2.6.4</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.24</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
