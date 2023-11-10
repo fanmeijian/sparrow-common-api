@@ -3,6 +3,8 @@ package cn.sparrowmini.common.api;
 
 import java.util.List;
 
+import cn.sparrowmini.common.SparrowTree;
+
 public interface TreeService<T, ID>{
   /**
    * 对整颗树进行排序，即对同一层级的叶排序
